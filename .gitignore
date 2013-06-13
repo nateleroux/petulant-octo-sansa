@@ -11,3 +11,7 @@
 *.lai
 *.la
 *.a
+
+# OS X
+*.dylib
+.DS_Store
