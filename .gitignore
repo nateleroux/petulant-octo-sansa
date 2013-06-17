@@ -15,3 +15,10 @@
 # OS X
 *.dylib
 .DS_Store
+
+# GCC crap
+gcc-4.8.1
+gmp-5.1.2
+mpc-1.0.1
+mpfr-3.1.2
+test-suite-3.2.src
