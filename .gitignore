@@ -27,4 +27,6 @@ binutils-2.23
 binutils-ppc
 gcc-ppc
 llvm-3.2.src
-
+xbos-bin
+stripglobals
+insertxosdata
