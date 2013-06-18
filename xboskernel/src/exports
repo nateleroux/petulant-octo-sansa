@@ -1,0 +1,5 @@
+# Please only place comments on their own line
+# Do not use whitespace before or after export declarations
+
+# Entry point
+main
