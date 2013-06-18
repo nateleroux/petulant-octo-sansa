@@ -1,3 +1,0 @@
-_getPointerToNamedFunction
-_JITTest_AvailableExternallyFunction
-_JITTest_AvailableExternallyGlobal
