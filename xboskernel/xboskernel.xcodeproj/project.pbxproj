@@ -1,0 +1,188 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		43A126AE17700DD6009214A8 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = main.c; path = src/main.c; sourceTree = "<group>"; };
+		43A126AF17701388009214A8 /* exports */ = {isa = PBXFileReference; lastKnownFileType = text; name = exports; path = src/exports; sourceTree = "<group>"; };
+		43A126B017701388009214A8 /* imports */ = {isa = PBXFileReference; lastKnownFileType = text; name = imports; path = src/imports; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		43A126A317700C2D009214A8 = {
+			isa = PBXGroup;
+			children = (
+				43A126B217701A33009214A8 /* build */,
+				43A126B117701A1B009214A8 /* src */,
+			);
+			sourceTree = "<group>";
+		};
+		43A126B117701A1B009214A8 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				43A126AE17700DD6009214A8 /* main.c */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		43A126B217701A33009214A8 /* build */ = {
+			isa = PBXGroup;
+			children = (
+				43A126AF17701388009214A8 /* exports */,
+				43A126B017701388009214A8 /* imports */,
+			);
+			name = build;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		43A126A817700C2D009214A8 /* xboskernel */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(SOURCE_ROOT) \"/Users/nate/Projects/petulant-octo-sansa/xbos-bin\" $(ACTION)";
+			buildConfigurationList = 43A126AB17700C2D009214A8 /* Build configuration list for PBXLegacyTarget "xboskernel" */;
+			buildPhases = (
+			);
+			buildToolPath = "/Users/nate/Projects/petulant-octo-sansa/xbos-bin/build";
+			buildWorkingDirectory = "$(SOURCE_ROOT)";
+			dependencies = (
+			);
+			name = xboskernel;
+			passBuildSettingsInEnvironment = 1;
+			productName = xboskernel;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		43A126A417700C2D009214A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Nathan LeRoux";
+			};
+			buildConfigurationList = 43A126A717700C2D009214A8 /* Build configuration list for PBXProject "xboskernel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 43A126A317700C2D009214A8;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43A126A817700C2D009214A8 /* xboskernel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		43A126A917700C2D009214A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "ppc32-xenon";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		43A126AA17700C2D009214A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "ppc32-xenon";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		43A126AC17700C2D009214A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		43A126AD17700C2D009214A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43A126A717700C2D009214A8 /* Build configuration list for PBXProject "xboskernel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43A126A917700C2D009214A8 /* Debug */,
+				43A126AA17700C2D009214A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43A126AB17700C2D009214A8 /* Build configuration list for PBXLegacyTarget "xboskernel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43A126AC17700C2D009214A8 /* Debug */,
+				43A126AD17700C2D009214A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43A126A417700C2D009214A8 /* Project object */;
+}
